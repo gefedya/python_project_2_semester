@@ -3,7 +3,7 @@ import sys
 
 Window = tk.Tk()
 
-Window.title("Clicker by @gefedya  v0.0.1 beta")
+Window.title("Clicker by @gefedya  v0.0.1")
 Window.geometry("{}x{}".format(640, 480))
 
 total_clicks = 0  # Total number of clicks on the counter (your score)
@@ -18,7 +18,7 @@ tk.Label(text="YOUR STATUS", width=16,
          background="#0089fb").pack()
 
 
-# 1. Status window
+# 1. Status Entry
 statusEntry = tk.Entry(background="#0089fb", width=77, justify='center')
 statusEntry.insert(tk.END, "Click on the main the button to start!")
 statusEntry.pack(side=tk.TOP)
